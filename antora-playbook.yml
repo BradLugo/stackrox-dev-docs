@@ -1,0 +1,13 @@
+site:
+  title: StackRox Developer Docs Site
+  # url: "https://bradlugo.github.io/stackrox"
+  start_page: stackrox::index.adoc
+content:
+  sources:
+    - url: https://github.com/BradLugo/stackrox.git
+      branches: docs
+      start_path: docs
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
